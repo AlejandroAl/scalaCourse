@@ -16,4 +16,4 @@ var unionTweets = newTweetSet.union(new NonEmpty(new Tweet("Alejandro2222","xx",
 
 unionTweets.foreach(Tweet => println("Usuarios::"+Tweet.text))
 
-unionTweets.descendingByRetweet.foreach(Tweet => println(Tweet.retweets))
+GoogleVsApple.googleTweets.foreach(Tweet => println("Text::"+Tweet.text))

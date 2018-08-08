@@ -137,7 +137,7 @@ class Empty extends TweetSet {
 
 class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
 
-    def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = {
+  def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = {
       if(!p(elem))
         left.filterAcc(p,right.filterAcc(p,acc))
       else
@@ -231,10 +231,23 @@ class Cons(val head: Tweet, val tail: TweetList) extends TweetList {
 object GoogleVsApple {
   val google = List("android", "Android", "galaxy", "Galaxy", "nexus", "Nexus")
   val apple = List("ios", "iOS", "iphone", "iPhone", "ipad", "iPad")
+  val tweetSetGoogleApple = TweetReader.allTweets
 
-    lazy val googleTweets: TweetSet = ???
-  lazy val appleTweets: TweetSet = ???
-  
+  lazy val googleTweets: TweetSet = {
+    returnTweetSetFilter(new Empty,google)
+  }
+  lazy val appleTweets: TweetSet = {
+    returnTweetSetFilter(new Empty,apple)
+  }
+
+  def returnTweetSetFilter(acc : TweetSet, list:List[String]) : TweetSet = {
+    if(list.isEmpty)
+      acc
+    else {
+      returnTweetSetFilter(tweetSetGoogleApple.filterAcc(Tweet => Tweet.text.contains(list.head), acc),list.tail)
+    }
+  }
+
   /**
    * A list of all tweets mentioning a keyword from either apple or google,
    * sorted by the number of retweets.

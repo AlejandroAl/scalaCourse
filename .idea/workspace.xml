@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f80f7208-f28e-4e32-bd89-8a7e3cebba90" name="Default" comment="" />
+    <list default="true" id="f80f7208-f28e-4e32-bd89-8a7e3cebba90" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/objsets/week3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/objsets/week3.sc" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -57,8 +60,8 @@
       <file leaf-file-name="TweetSet.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="233" column="49" lean-forward="true" selection-start-line="233" selection-start-column="49" selection-end-line="233" selection-end-column="49" />
               <folding>
                 <element signature="e#4120#4329#0" />
                 <element signature="e#4333#4430#0" />
@@ -71,8 +74,8 @@
       <file leaf-file-name="week3.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/week3.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="244">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -93,12 +96,15 @@
       <find>descendingByRetweet</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/objsets/TweetReader.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/objsets/week3.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/objsets/week3.sc" />
       </list>
     </option>
   </component>
@@ -108,6 +114,7 @@
     <option name="width" value="1303" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -302,28 +309,29 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49880478" weight="0.3281493" />
       <window_info anchor="right" id="sbt" order="8" weight="0.32988048" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011952" side_tool="true" visible="true" weight="0.28926906" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50199205" side_tool="true" visible="true" weight="0.32761312" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996016" weight="0.66718507" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3281493" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Jelastic" order="11" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2613546" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="12" />
-      <window_info id="Learn" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49800798" visible="true" weight="0.32761312" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" x="0" y="0" width="275" height="580" id="Documentation" side_tool="true" weight="0.32988048" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996016" weight="0.66718507" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3281493" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2613546" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="12" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="8" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -382,7 +390,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -470,15 +478,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/week3.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="244">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="233" column="49" lean-forward="true" selection-start-line="233" selection-start-column="49" selection-end-line="233" selection-end-column="49" />
           <folding>
             <element signature="e#4120#4329#0" />
             <element signature="e#4333#4430#0" />
